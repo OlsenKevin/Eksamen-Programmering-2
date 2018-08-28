@@ -1,0 +1,170 @@
+/*----- GLOBAL ------*/
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Open Sans;
+    background-color: #2c3e50;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.8em;
+}
+h3 {
+    font-size: 1.6em;
+}
+h4 {
+    font-size: 1.5em;
+}
+
+/*-----header and logo-------*/
+
+#header {
+    
+    width: auto;
+    height: 10%;
+    padding-left: 15px;
+    padding-top:20px;
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+    clear: right;
+}
+
+.logo {
+    float: left;
+    margin-left: 1em;
+    line-height: 1.4em;
+    color: red;
+    clear: right;
+}
+
+.logo a {
+    font-size: 1.4em;
+}
+
+
+
+/*---------------------*/
+
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*--------- NAV  ---------*/
+
+nav {
+    width: 20%;
+    height: 90%;
+    
+    float: left;
+}
+
+nav ul {
+
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    color: #ccc;
+    display: block;
+    padding: 0.8em;
+    font-size: 1em;
+    border-bottom: 1px solid #0a0a0a;
+
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+li a:hover {
+    background-color: #030303;
+    color: #fff;
+}
+
+.selected {
+    background-color: #030303;
+    color: #fff;
+}
+
+
+/*------- Main content --------*/
+
+#content {
+    
+    padding:15px;
+    width: 80%;
+    height: 90%;
+    float: left;
+    background-color: #dcf0f1;
+    border-radius:5px 0 0 0;
+    display: block;
+}
+
+.box {
+    margin-top: 1em;
+}
+
+.box-top {
+    color: #fff;
+    text-shadow: 0px 1px #000;
+    background-color: #2980b9;
+    padding: 5px 0 5px 15px;
+    border-radius: 5px 5px 0 0;
+}
+
+.box-pane {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+}
+
+/*---------- form --------------*/
+
+label {
+    font-size: 1.2rem;
+}
+
+option {
+    height: 2rem;
+    width:150px;
+    padding-right:0.2rem;
+    border:2px solid #2980b9;
+}
+
+input[type=submit] {
+    height: 2.1rem;
+    padding:0 1rem 0 1rem;
+    border-radius:0 5px 5px 0;
+    background-color:#2980b9;
+    color:#fff;
+    border: none;
+}
+
+/*------ FOOTER ----------------*/
+
+#footer {
+    
+    color:#fff;
+    width: 100%;
+    height: 5%;
+    padding:10px;
+    float:left;
+    clear:both;
+}
